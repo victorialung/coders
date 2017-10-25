@@ -1,0 +1,63 @@
+*{box-sizing:border-box;
+}
+
+body{
+font-family:'Space Mono',monospace;
+font-size: 18px;
+}
+
+.container {
+    display: inline-block;
+    text-align: center;
+    margin: 0.2em;
+    padding: 30px;
+}
+
+#section {
+    position: absolute;
+    top: 20px;
+    left: 12%;
+    text-align: center;}
+
+#division {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 1px;
+    width: 70px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#members {
+    position: relative;
+    margin: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.image{
+    display:inline-block;
+    position: relative;
+    text-align: center;
+    min-width:30%;
+    padding: 1em;
+}
+
+.name{
+    position:absolute;
+    right:20%;
+    top:65%;
+    color:#fff;
+    font-size: auto;
+    font-weight: bold;
+    padding: 10%
+}
+
+img{
+    width: 80%;
+    size: 80%;
+}
+
